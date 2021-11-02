@@ -1,5 +1,3 @@
-package Swag_Labs_Login;
-
 import java.awt.Toolkit;
 import java.time.Duration;
 
