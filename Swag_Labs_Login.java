@@ -62,10 +62,12 @@ public class Swag_Labs_Login {
 
                 // parola boslugu
                 WebElement password = driver.findElement(By.id("password"));
-                // String correctPassword = "secret_sauce";
-                String wrongPassword = "IamSoWrong";
+                //correct one
+                String password = "secret_sauce";
+                //wrong one
+                // String password = "IamSoWrong";
                 password.clear();
-                password.sendKeys(wrongPassword);
+                password.sendKeys(password);
                 userLoginButton.click();
 
                 // ekran goruntusu alabilmek icin 5 saniye beklemesini sagladik
